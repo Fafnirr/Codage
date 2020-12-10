@@ -1,0 +1,64 @@
+<!doctype html>
+<HTML lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Exercice 17</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>PiqueNique multi Assosiations</h1>
+<h3>Inscriptions</h3>
+<form action="" method="get" class="form-example">
+    <fieldset>
+        <div class="form-example">
+            <label for="name">Nom: </label>
+            <input type="text" name="name" id="name" required>
+        </div>
+        <div class="form-example">
+            <label for="mdp">Mot de passe: </label>
+            <input type="text" name="mdp" id="mdp" required>
+        </div>
+        <div>
+            <label for="assos">Assosiations</label>
+        <SELECT name="Assosiations" size="1">
+            <OPTION>AssosA
+            <OPTION>AssosB
+            <OPTION>AssosC
+            <OPTION>AssosD
+            <OPTION>AssosE
+            </SELECT>
+        </div>   
+        <div>
+            <label for="dispo">Disponnibilités pour la semaine du 22 juin</label>
+            <input type="checkbox" id="Lundi" name="Lundi">
+            <label for="Lundi">Lundi</label>
+            <input type="checkbox" id="Mardi" name="Mardi">
+            <label for="Mardi">Mardi</label>
+            <input type="checkbox" id="Mercredi" name="Mercredi">
+            <label for="Mercredi">Mercredi</label>
+            <input type="checkbox" id="Jeudi" name="Jeudi">
+            <label for="Jeudi">Jeudi</label>
+            <input type="checkbox" id="Vendredi" name="Vendredi">
+            <label for="Vendredi">Vendredi</label>
+        </div>
+        <div>
+            <label for="contribution">contribution</label>
+            <input type="checkbox" id="entrée" name="entrée">
+            <label for="Vendredi">entrée</label>
+            <input type="checkbox" id="plat" name="plat">
+            <label for="Vendredi">plat</label>
+            <input type="checkbox" id="dessert" name="dessert">
+            <label for="Vendredi">dessert</label>
+        </div>
+        <div>
+            <label for="Commentaires">Commentaires</label>
+            <textarea id="commentaires" name="commentaires"></textarea>
+        </div>
+
+        <div>
+            <input type="submit" value="S'inscrire !">
+            <input type="submit" value="Annuler">
+        </div>
+        </fieldset>
+</body>
+</html>

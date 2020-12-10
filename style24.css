@@ -1,0 +1,30 @@
+#p1{
+    color: blue;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+}
+#p2{
+    font-family: Verdana;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+}
+#p3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    background-color: cadetblue;
+    color: white;
+}
+#p4{
+    font-family: Verdana;
+    font-size: 16px;
+    text-decoration: underline;
+    text-align: right;
+    background-color: black;
+    color: white;
+}
+
+.titre{
+    color: red;
+}

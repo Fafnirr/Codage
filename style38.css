@@ -1,0 +1,24 @@
+#img1{
+    height: 400px;
+    width: 400px;
+    /*display: inherit*/;
+}
+
+#img2{
+    height: 400px;
+    width: 400px;
+    /*display: none;*/
+}
+
+#img3{
+    height: 400px;
+    width: 400px;
+    /*display: none;*/
+}
+.masque{
+    display: none;
+}
+
+.affiche{
+    display: inherit;
+}

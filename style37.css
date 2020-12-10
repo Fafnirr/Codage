@@ -1,0 +1,20 @@
+#divViolet{
+    height: 250px;
+    width: 250px;
+    background-color: purple;
+    display: inherit;
+}
+
+#divRouge{
+    height: 250px;
+    width: 250px;
+    background-color: red;
+    display: none;
+}
+
+#divVerte{
+    height: 250px;
+    width: 250px;
+    background-color: green;
+    display: none;
+}
