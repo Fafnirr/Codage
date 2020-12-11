@@ -1,0 +1,10 @@
+ul{
+    background-color: black;
+    width: 800px;
+    height: 50px;
+    list-style: none;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+}

@@ -22,7 +22,20 @@ function jouer(id){
         color_case="blue"
     }
     }
-
+    //message gagnant bleu
+    let case1 = document.getElementById("case1")
+    let case2 = document.getElementById("case2")
+    let case3 = document.getElementById("case3")
+    if (case1.classList.contains("blue") && case2.classList.contains("blue") && case3.classList.contains("blue") //ligne 1
+        /*
+        case4, case5, case6  case7, case8, case9  // les 3 largeurs
+        case1, case4, case7  case2, case5, case8  case3, case6, case9  // les 3 hauteurs
+        case1, case5, case9 || case3, case5, case7 // les 2 diagonales
+        ==
+        "blue"*/
+    ) {
+        alert("VICTOIRE BLEU!!!!")
+    }
 
 }
 

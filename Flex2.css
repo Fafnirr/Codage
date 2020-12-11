@@ -1,0 +1,46 @@
+#parentBlue{
+    background-color: blue;
+    width: 700px;
+    height: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#boxWhite{
+    background-color: white;
+    width: 600px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Red{
+    background-color: red;
+    width: 150px;
+    height: 60px;
+}
+
+.boxorange{
+    background-color: orange;
+    width: 300px;
+    height: 180px;
+}
+
+.boxGreen{
+    background-color: lime;
+    width: 300px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.pink{
+    background-color: rgb(255, 83, 212);
+    width: 150px;
+    height: 60px;
+}

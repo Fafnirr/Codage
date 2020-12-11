@@ -1,0 +1,41 @@
+#parentBlue{
+    background-color: blue;
+    width: 700px;
+    height: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#pink{
+    background-color: pink;
+    width: 250px;
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#red{
+    background-color: red;
+    width: 250px;
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.green{
+    background-color: lime;
+    width: 200px;
+    height: 200px;
+}
+
+.orange{
+    background-color: orange;
+    width: 200px;
+    height: 60px;
+}
